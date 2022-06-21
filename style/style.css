@@ -7,10 +7,6 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-.wrapper{
-    width: 100%;
-    margin: 0 auto;
-}
 header{
     padding: 23px 0;
     display: flex;
@@ -48,7 +44,7 @@ input{
     font-size: 30px;
     line-height: 54px;
 }
-button{
+#first_butt{
     background: #A8863D;
     padding: 0px 37px;
     font-family: Roboto;
@@ -67,7 +63,6 @@ section:nth-of-type(2){
 h2{
     font-size: 37px;
     line-height: 36px;
-    text-align: center;
     color: rgba(0, 0, 0, 0.56);
 }
 h3{
@@ -87,7 +82,51 @@ section:nth-of-type(3){
     align-items: center;
     display: flex;
 }
+.phon_blck{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 .last_blck{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
     background: #FAC960;
+    top: 1605px;
     height: 313px;
+    width: 100%;
+}
+.last_blck>h2{
+    margin: 54px auto 0px;
+}
+.last_blck>h3{
+    margin: 31px auto 0px;
+    padding: 0px;
+}
+#last_butt{
+    padding: 0px;
+    margin-top: 33px;
+    width: 61px;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #758696;
+    border-radius: 3px;
+}
+footer{
+    height: 240px;
+}
+.foot_logo{
+    padding-top: 81px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.social{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
